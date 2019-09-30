@@ -3561,7 +3561,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n// Global app controller\n\nconsole.log(`${_test__WEBPACK_IMPORTED_MODULE_0__[\"default\"]} imported from module test.js`);\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n// Global app controller\n\nvar x = 3.1415;\nconsole.log(\"\".concat(_test__WEBPACK_IMPORTED_MODULE_0__[\"default\"], \" imported from module test.js. Variable x = \").concat(x));\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
@@ -3573,7 +3573,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconsole.log('Imported module');\n/* harmony default export */ __webpack_exports__[\"default\"] = (69);\n\n\n//# sourceURL=webpack:///./src/js/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconsole.log('Imported module');\n/* harmony default export */ __webpack_exports__[\"default\"] = (12345);\n\n//# sourceURL=webpack:///./src/js/test.js?");
 
 /***/ }),
 
